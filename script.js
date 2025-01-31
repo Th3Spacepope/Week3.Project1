@@ -21,6 +21,7 @@
 //It must be called myPlaylist
 
 //9. call the .getInfo() method on myPlaylist
+
 import { Song, Musician, Playlist } from "./MusicData.js";
 const musician1 = new Musician("Cameron Lew", "Keys", "City Pop");
 const musician2 = new Musician("Corey Wong", "Guitar", "Rock");
@@ -30,6 +31,7 @@ const song2 = new Song("Radio Shack", musician2, "Wong's Cafe");
 const song3 = new Song("Together Again", musician3, "The Golden Hour");
 const myPlaylist = new Playlist("Obsessive Replays", song1, song2, song3);
 myPlaylist.getInfo();
+
 //DO NOT EDIT BELOW THIS LINE
 //the code below here will insert the Playlist data into the webpage.
 const bodyHTML = document.querySelector("body");
